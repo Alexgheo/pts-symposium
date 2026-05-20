@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website name="Symposium on Proof-theoretic Semantics" source-url="https://sites.google.com/view/pts-symposium-uk/home">
+
+  <navigation>
+    <item level="1" label="Home" url="/view/pts-symposium-uk/home" current="true"/>
+    <item level="1" label="Past Events" type="dropdown">
+      <item level="2" label="February 2026" url="/view/pts-symposium-uk/past-events/february-2026"/>
+      <item level="2" label="February 2025" url="/view/pts-symposium-uk/past-events/february-2025"/>
+      <item level="2" label="August 2024" url="/view/pts-symposium-uk/past-events/august-2024"/>
+      <item level="2" label="September 2023" url="/view/pts-symposium-uk/past-events/september-2023"/>
+      <item level="2" label="November 2022" url="/view/pts-symposium-uk/past-events/november-2022"/>
+      <item level="2" label="April 2022" url="/view/pts-symposium-uk/past-events/april-2022"/>
+      <item level="2" label="World Logic Day - The Meaning of Proofs" url="https://sites.google.com/view/wdl-ucl2022/home" external="true"/>
+    </item>
+  </navigation>
+
+  <page id="home" title="Home" url="https://sites.google.com/view/pts-symposium-uk/home">
+
+    <section id="header" type="hero">
+      <header-image url="https://lh3.googleusercontent.com/sitesv/AA5AbUBmn3oCvA68PzT5xbJ6hnWKG2mDjhoBraQwvCOHV7rN5t-eiB4l0L_dLCi4B3b7BSoLIK_hM-AkVqrYm6gNSKDfb4qU-oL3OZ0Q_uIBh-TAAWZSXBPSPzfi8LupfcHNF3bbJEEyiEt2KXmlxonZfpyIK5vNXPYgJE3VHa3GDEf1onOF3iL41GHS5hM=w16383"/>
+      <venue-line>9th - 11th of February 2026 @ <link href="https://philosophy.sas.ac.uk/">Institute of Philosophy</link></venue-line>
+      <title>6th Symposium on Proof-theoretic Semantics</title>
+      <organizer-line>Organizers <link href="https://www.alexandergheorghiu.com/">Alexander V. Gheorghiu</link> and <link href="https://sites.google.com/view/tao-gu/about">Tao Gu</link>.</organizer-line>
+    </section>
+
+    <section id="about" type="content">
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUAv0qSdXNHQipIr-RtxfMuRibIPLaZawxjrqSh-BOmMbkMfcRhyY0HPDifwDcCXbQ7ZEgSC3POWNcdj6OLC6I81VLc_ciWYxmEZcNAWJs8VmOaFbMVHo_tiGC7e2RMChMBA9UxuP3BHuyt2QSqDNLfTMNCd6JUbTpzzQYc6ULc0bRE-KkIFsGxb2CGrqAfNJryM7Pxz68LFz009vce3ey4QVWFHKqAju5LabCY=w1280"
+             caption="3rd Symposium on Proof-theoretic Semantics @ The International Conference on Automated Reasoning with Analytic Tableaux and Related Methods — TABLEAUX 2023"/>
+      <heading>A workshop spread across three days on current research on proof-theoretic semantics.</heading>
+      <p>Presentations will be a <strong>total of one hour</strong> including questions and discussion.</p>
+      <p>The event is hosted by the <link href="https://philosophy.sas.ac.uk/centres-partnerships/celli">Centre for Logic, Language, and Information</link> (CeLLI), <link href="https://philosophy.sas.ac.uk/">Institute of Philosophy</link> (IoP) at the <link href="https://www.sas.ac.uk/">School of Advanced Study</link> (SAS).</p>
+    </section>
+
+    <section id="topics" type="content">
+      <heading>Topics</heading>
+      <list>
+        <item>soundness &amp; completeness</item>
+        <item>classical, intuitionistic, modal, substructural logic</item>
+        <item>applications and interpretations</item>
+        <item>philosophical considerations</item>
+        <item>logical inferentialism</item>
+        <item>meta-theory</item>
+        <item>...anything proof-theoretic semantics.</item>
+      </list>
+    </section>
+
+    <section id="logistics" type="content">
+      <subsection id="time">
+        <heading>Time</heading>
+        <list>
+          <item>9th of February: 09:30 - 16:00</item>
+          <item>10th of February: 10:00 - 16:00</item>
+          <item>11th of February: 10:00 - 13:00</item>
+        </list>
+      </subsection>
+      <subsection id="location">
+        <heading>Location</heading>
+        <p>Room 349, Senate House (South Block), Malet St, London WC1E 7HU</p>
+        <p>Online: <link href="https://ucl.zoom.us/j/96939051090">https://ucl.zoom.us/j/96939051090</link></p>
+      </subsection>
+      <subsection id="registration">
+        <heading>Registration</heading>
+        <p>Please register via the Institute of Philosophy <link href="https://philosophy.sas.ac.uk/news-events/events/6th-symposium-proof-theoretic-semantics">(Registration)</link>.</p>
+      </subsection>
+    </section>
+
+    <footer>
+      <section id="organizers">
+        <heading>Organizers</heading>
+        <list>
+          <item>
+            <name><link href="https://www.alexandergheorghiu.com/">Alexander V. Gheorghiu</link></name>
+            <affiliation>University of Southampton &amp; University College London, UK</affiliation>
+          </item>
+          <item>
+            <name><link href="https://sites.google.com/view/tao-gu/about">Tao Gu</link></name>
+            <affiliation>University of Southampton &amp; University College London, UK</affiliation>
+          </item>
+          <item>
+            <name><link href="http://www0.cs.ucl.ac.uk/staff/D.Pym/">David J. Pym</link></name>
+            <affiliation>University College London &amp; Institute of Philosophy, UK</affiliation>
+          </item>
+        </list>
+      </section>
+      <section id="network">
+        <p>Part of the <link href="https://sites.google.com/view/ptsnetwork/home-page">Proof-theoretic Semantics Network</link></p>
+      </section>
+    </footer>
+
+  </page>
+
+  <page id="past-events-april-2022" title="April 2022" url="https://sites.google.com/view/pts-symposium-uk/past-events/april-2022">
+
+    <section id="header" type="hero">
+      <header-image url="https://lh3.googleusercontent.com/sitesv/AA5AbUCoB06aDsZ3tQNOfx1n9PUZ0x_HLBgLIxeU96uG47m5tGYDmfKIUUnBAeZy2pXD2DJN4paP2-jczrTsUlhZBxZw6DudRIPCrz063udN2rQdLz8Q6a1Ri79oTSW8ROc3YCkUUJqG38H3RoTXaKYy8u6yITFi7Y16V8Y5cSv2QbgvDruFELx1tpd3=w16383"/>
+      <title>The Schedule / April 2022</title>
+    </section>
+
+    <section id="schedule" type="content">
+
+      <day label="Day 1 — Thursday 28th April">
+        <slot type="logistics" time="09:00 – 11:15">Arrival</slot>
+        <slot type="talk" time="11:15 – 12:15">
+          <title>Why I Care about Proof-theoretic Semantics</title>
+          <speaker><link href="http://www0.cs.ucl.ac.uk/staff/D.Pym/">David J. Pym</link></speaker>
+        </slot>
+        <slot type="talk" time="12:15 – 13:00">
+          <title>Inferentialism: Mixing to Separate</title>
+          <speaker><link href="https://sites.google.com/view/elainepimentel">Elaine Pimentel</link></speaker>
+        </slot>
+        <slot type="talk" time="13:00 – 14:00">
+          <title>Categorical view of Base-extension Semantics for IL</title>
+          <speaker>Eike Ritter</speaker>
+        </slot>
+        <slot type="logistics" time="14:00 – 15:00">Lunch</slot>
+        <slot type="talk" time="15:00 – 16:00">
+          <title>Topological Analysis of Disjunction in Proof-theoretic Semantics</title>
+          <speaker>Edmund Robinson</speaker>
+        </slot>
+        <slot type="talk" time="16:00 – 17:00">
+          <title>Proof-theoretic Semantics and Tactical Proof</title>
+          <speaker><link href="https://www.alexandergheorghiu.com/">Alexander V. Gheorghiu</link></speaker>
+        </slot>
+        <slot type="social">Dinner at Casa Tua (King's Cross) @ 19:30</slot>
+      </day>
+
+      <day label="Day 2 — Friday 29th April">
+        <slot type="logistics" time="09:00 – 11:15">Arrival</slot>
+        <slot type="talk" time="11:15 – 12:00">
+          <title>On the Completeness of Sandqvist's Base-extension Semantics</title>
+          <speaker>Timo Lang</speaker>
+        </slot>
+        <slot type="talk" time="12:00 – 12:45">
+          <title>Modal Logic and Proof-theoretic Semantics</title>
+          <speaker>Timo Eckhardt</speaker>
+        </slot>
+        <slot type="talk" time="12:45 – 13:30">
+          <title>A Proof-theoretic Semantics for the Logic of Bunched Implications</title>
+          <speaker>Sonia Marin &amp; Diana Costa</speaker>
+        </slot>
+        <slot type="logistics">Lunch and Departure</slot>
+      </day>
+
+    </section>
+
+    <section id="photos" type="gallery">
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUBTqhzMmgv7iMbVf6BBIU6fh5cxiIDPdOB-FSwZSk8mKicJl-Yx6VAlzpjX24bK5EwnpwBtw4x2sVR5TzB3HQGH2fKMrqzFh7dSqHzopMg8Gs0jwNiHMlDlAfTYcjAekHsJJfuDWh2n-gqpelq7r25kkBF4sRW3IXF1_TsqF_l0bkHVSjvD9HzOA=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUCrpkf-vMYPq4vV0TrBMFBrO-OJrmhbpGAPfMIb78q0gAzHIiMi7jLcyLwbwOFP-W25ld-GHWDV9fGMFOkDdNH4oZ7jIXU0lmj5Gvqfb2v7D3nCVR8lqzF_bpKqCVG0P_wQ2D2UpHJFVqKvCPFGJ_kHI7rRGCRpzO9E2cJsVNzQJcNRlJW0PA=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUAXGvzME2t7rfbBqnHEa94yEOQNPinxMlSw_HZHFXkRW8ckjrSe9g1GFRKnb1Oj8j9pJNqOaqTgRMULqGqCqlMsUOZB5tRiFW1_ZBk7ygRCU_EZumxC0SHkH7e4JU7y1Ar-B_xXXVgf2KFVi9jjM_ZoR-j8JH2tAlhRSKz9m7oaqSQJJz3Y8=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUCgvQSjjP6Nuh4DkSm_cg1mQ4LZcl9Tp9akBwgvCG3wnPuGHH1YeVxoTg0wFqSsHlV7t8g3JqYbPz3oiRj4QEgjb42CQNn8hv3MCNIPVCLpEzuG6Z1h0D2bEMuPsWAzIpopovnekBB6-7r9pcK3n0mI1yMvqtqJaTjH0wXE7KVWGWp8wRGYJfA=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUCU4-S6vPAuL3XJ3XWnWHV1Pzh5jfYlkPt4rKfBqSlAG7aqCkBWLOLcmxz7HbkTRW5A6QbVRn4JKP5YY_QqI3n4Lw3QGAfxDivjEqGSwdaVRkXi0-s-oHdqM3X7cxVfp9P5sRlMIiFt4yKCMnLJo9A2mYYQRtnBxrb5J8Lf1dEopCVMl2TXyK=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUBtCkz9IEKBqVlBtAzz0sBiM79eYHTQTKl9eRaO2rP8WnJRqvnuXOarMdh87X3V8UWIkqp_rT38YZX44ZxdNJGopT1kgqLNqJ_8G1iZsHumYHH2c6lJqAEsVGpJMZ3WsHbPnCn7dJvUMrYjLmzpJX07_yrJfVujCQQ-j7aLJTSrLQMY2Gs2gA=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUAF7g2lYzN4fzS4RKVJL0Rr5IxLiXpODdNFmVLY7i8NaW6OsMjpFHHpCUm-bLPLH8oGM4j1YdQZBBtilVDOVKs5B5A8-TxBBFDEb2KWzVS5NQ2JCw2Eya_Qegg2g6pKMF5I9eDuqjAGfkgPO_q3Z58a1kfD3eF2rPuZeQoJQsRx7kXEjHSg=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUCRrJqmx3HyAw6XW1LxRKBTJm2VCp7Q42auyq_0GCR5e_Cj_BinNyIQxJCZ2I7xKX8RJxoq9a3kFzpH5QhTsBjEovfXdABKlFWuB3tUdMp-hpB7FdnxLqbcMqt5Pqbse5FY0S8oCrOw2DQPV_m7O_yPo0ZkT-iB3x9G6W3XLmT2f7mFqELsA=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUAIH8_LxWt2kQ6CMMwgvBY-xdtjdWGi9Qur1ZKbCKJ9xN6mxxfr_1Mc5KiQEE3xQ4XNPGcbzCCCQ_A8RGDHuvJFnD7p5ooOL0cW1kRbq9hAb5AQ1z5dYSfknNNl0VpqyJTLBuHCCcl_GVCbk0AikGMvzZbYGYbLF8cPMQH2UBxF4Q0H3rAGg=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUDgD8K7dHDC8x8vDaQnhA5O_XPJSm1HNl5IWBxJM_mTT0PLaqNxnIBl0nXdLN7hWGkZi0JhNi3b0b_CXTe3bkuPU60PsTxjfT3kFwKiQ1dxq2gq0M8Z5xnJiJfvQPM4q9eoE5OlDJbRIB7VkKXZdX0AilWkqFSyB2xlHMWEJXf0v3EpuCkJQ=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUCt6UzqmLbJB_uKHEkGVDjEH60m9R2c2iqxp0I6I3Jrm9CWbK18Lk3kIVMv1VQpNm9ys7SHJqS7b4dT_WpbLhJyE0TmXuHBqOp01VNjjGIk22O3UMw_7K1C9bGj5HV6OtF6MJ0iHDxWsrKgA_kJbwb2Oe7pOFhS4J4jGnK1WQXZ5qP7JMBI=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUBVz0H4cz4PGJJHEgY8q9s_bX8HLqxqkiWBvxJTWaOFh2zsFk2AKfGnqvEj4oB_VKXJrpPaV8lJgRH3JXJ1S_kXm9FoIPbVdAGgXxfHHTizXkSZ9pTJ0ypQqaFpKqFIAiMiNVV5MHMllC6G5Bdi6HWmxdm2C3RR_2L3b2AqOgpEgvwGe9l3k=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUDV8s-GqBhW8cjSbK4WLI0z-S8VVxkDFmfOyMF1BEegjFRy1TjJZh6D8YrP7GfcC4dsMcCM76P_Hkf4Q7kOvDHmU7jELSBqU3UKPv1xMtl4QLhLULfTQWHb_-1rBtCmSiRoJLXZaqWuOJe7KXuFRUi4JZgvD-KFyvjGlhIiuVBWHDSYrMkU=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUBYBQKEXrSsZpEagMFlXCKKmNvLUlTGSfBVDzLQrxFVBNd0XEluFSIb_bUGRxFicfaKXk3EGmGfMkIDRFvXFI0mRlUlYx5AJMHlAD4xjH-v8Vz8MxEMIcuNl3_5iyBGSJlpsPzpsFpVqYHLyvlbXRCasXQ7rFEjCqQFbG4PLGb9DIPtRCCQGA=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUA-s4B3rdqeS3-8rO19oLlQbmAIbixESmxBPGDVoB6b6oOHZIYzRNkAn0KHYnK6T7LROnvR5TqSV2DPFPE4MgIMQKjwUlTmtTVmJv9fR7oBkLhL0z52X1tFrHKhJjJzw5W45KPpLIeWYJRvH5SjL7fRaW6P4J4x2cME-D4EV6OGW4T2VBhQA=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUCrDRnH6rwflqr9OOlBzWBfPUDV_hIRg9OxZ5iyikxhvHxYfRe4S2vF9HnQpSGarMlMx7N9oB5LJkf8GjfMVHFkTlVgD3NBDW4oL8kOm9EChsBqh4WvD-0qIQw0UR2NHNX-oynHPjGODM6v6jgTjyMa2rQnE9u7IMMfEtbC2A3OdHiD2EXHLpMw=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUBgqjkyCGrjgjJYEqhobfwJoC2I9zX9kRSFq-UcDtXWRv5HsGBfTFBHNixrXWXpXlk9VB8ZOd3s6v4pQl9c5p_k7qHNsTGVe9E2E5VUMf5jVqVFW6SjCxSzJLlsOHHi77ERHKUqr7ik9yCXyFM5HZq6M3fIa_KQkzz3Z2gg5oC6q3m5b-d5A=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUBWqN0rMFY2b8-RfDMflkFCyRCJwxCkMH2qFDKLW_JAdD7CIFJeJvJQhwuXeepgEjixJxvUelQxXBWm6tnJMzLHZOuJJHy8RTFLhXjJxqh7Fl_wd3Hj8T0sj7J4G7_mgkK9R-fJAHm0pOX_bYR3T_wFLvJMQ-n3JCqWlDTSVBUE1TxR4Ekw=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUAxxpMXV2JX6MV3WjSO9PNFvOCgRn2smRCMiKdAfQQDGXOAmBTl8YGH2m3H5HPf1uQHlVi5r4LOsRGBxMbENdh7WoGhFzWCi73emCHEEbzVQjKFVUq0uh8W3CgIPTVKQrWE-KhD_HiQmZmtJi4VKc2K26pC7EBcLd1kS4rVvp7qBzMHTqLqw=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUDZGDH7Ln3OlWXopnb0KkY84S6_SstipizwH0VrjfM5mBqtAWiHjMwJh2t4HN6ELXpAO_nRcJv3vGvHPnhk7c3T0S7N4TKzNWM3u5BNJOGlE7wkf8e5dD1GxKtMzMJoD5P-ACJRQAJLKWzP3-NZUQR_sX5VzuJZyj8VPBJXHpMUKvYuS7A=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUCvB8rFBG4w7B4Z3Xq5Km3MjWHUAM0EkCQmcXqnHJJn5sHnlJq5ZzFq1JDJXvEwgNsE_i7qHKrGp3QmfBMaMW0OXFV2OqN39uM9oMnRcZ9lJKiNEqh8yvvLBrF0UrXsGK8LLqA9T3OUfS3AMWC8dX6yK0Hy_3OXWBV0OjCz6oW4PpvCOjY=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUAHxJMLJ1iFoakEDXK4SZBC5Vz_RfkLO2fUkjQlLT2PuDvPVXkbmDR_vbLRlEh4lBVSJdkdXkCPFIBSPzNL2EDC3f8lDJU05pnHblkbf8yiAZsBuOEPZg_bWJyJiSS0oOLGYl0oBJILi0OhVCZ4HNa7Rr2yBSNWQKdD1xUSzYJ7gkQI=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUCiBbVMxPYJuN_8XMC0uQbTuYCAfHyeaH3t_xvAmcCPi8ByBi2v6nnRJvBqFN-BxrwWd0CUpjA2eSxg4h6dJjUFcHsF_GRE7_TKqhHwPaW7UB_mRv31yEtP6B-7ixoJhiK55J-mVgZfFYN9GpqNAo9y1Cq5q0GN0iGRxmJdLi-R36lIbO9g=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUDQ2A5x3dWjFpyRBkiWb2DP28lGMbFnhPvkEt3yiwniZjXf4NvI2s4m_NvWHVp7jMqFvQqn0nO1e0LCN0rNDkSRpKhJB0HGP03V2CiIFmBDqkxq6pL8MkJr2-DzEJg6T37mSYpMx7ZEALx1YRMr97SvSp5TKLgpBZdX1nLJLf3y3SJyuXsA=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUCQlT0nfZ0IfvEFIQ0bLKvRaMI94_fq15M1NfcX0Y0o5MEQdRoNhxLZOQAy5Pn0MSIj7pRqGrAw-UHbqTbfRRj8ygZ-XxAVKGKRKH8Xge7mIfE5iBGLzPRuG2a_U7sVB0y2jcaP0gF7g6cI_LLdovwwV8o-I0kHVvZ2k4BHKaBT0EhNXUk=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUBLVDdC1D8jqjMgWJXWD_jZSSfRwMN7Z-lfSDKSSVYl0bBzlWlXx4WN8KqX1Rp8Eq_Bl5DLyWOzSf4G_YDdqbfFvFVX5hJ5WqnZKEgJgE1I4wCvXXjjJ2bqGMxBd3Mv9UrJm5b1r0M0M8yJWF30IuRCVbCZ3-MfpOt5TcX9CQvF7rGF3ZQ=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUASmNmVNJJxhvWUq6t4Bxx9SZWk_eiA8KLbnScbJf-RlTYzCXvM5h2JXLcyb_zDX6V_pV7F3o1H0wnlqaLbXAKSFHX_kQ8t7pO0IEJtPbqgv_3a2E7PuX8x44PMgqkFMO1Vy8OLtFXKlkTv5oKIFTf1o3jqAGGVZ6sE3K1h2D8bECQXQ=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUCg0jq0X7SLflVqZGTWMcHMeVJ7lxlXSB4h1lhp5yB-Rz9k4HnUJYAZRiBIV7Nwy9PXWIZ4mQfKLT0G8cFuvMlkEn4k4Jfj8M1aJFXFZUQyDvbfYk5eMFuBnJGIjrMLrVx7oXQ97nNaCLIrN7LLopqoE5wSXn6A2J4Ci8rKD-ZbU05V-RaQ=w400-h267"/>
+      <image url="https://lh3.googleusercontent.com/sitesv/AA5AbUCqEHj_w1Rz5QGO64ZKOJjAHfJOJ_T-MYJt_8c4MxX2X5gqrFRVVF_eAl6r2QmHj87IEr0t8-cJfBBFKRpUNjQxaTRR4BSMY2_Oq8FqPlVkm_Bi04JOFQKZj72vKPl1XhyXqhYVtjA4P3W-RIPMRkVw5SRxFlUx1-GnfTXcGqWkmNi8iMDw=w400-h267"/>
+    </section>
+
+    <section id="quote" type="content">
+      <blockquote>Mathematics, rightly viewed, possesses not only truth, but supreme beauty — a beauty cold and austere, like that of sculpture, without appeal to any part of our weaker nature, without the gorgeous trappings of painting or music, yet sublimely pure, and capable of a stern perfection such as only the greatest art can show.</blockquote>
+      <attribution>Bertrand Russell, <cite>The Study of Mathematics</cite></attribution>
+    </section>
+
+    <footer>
+      <section id="organizers">
+        <heading>Organizers</heading>
+        <list>
+          <item>
+            <name><link href="https://www.alexandergheorghiu.com/">Alexander V. Gheorghiu</link></name>
+            <affiliation>University College London, UK</affiliation>
+          </item>
+          <item>
+            <name><link href="https://sites.google.com/view/tao-gu/about">Tao Gu</link></name>
+            <affiliation>University College London, UK</affiliation>
+          </item>
+          <item>
+            <name><link href="http://www0.cs.ucl.ac.uk/staff/D.Pym/">David J. Pym</link></name>
+            <affiliation>University College London &amp; Institute of Philosophy, UK</affiliation>
+          </item>
+        </list>
+      </section>
+      <section id="network">
+        <p>Part of the <link href="https://sites.google.com/view/ptsnetwork/home-page">Proof-theoretic Semantics Network</link></p>
+      </section>
+    </footer>
+
+  </page>
+
+  <page id="past-events-november-2022" title="November 2022" url="https://www.pts-symposium.com/past-events/november-2022">
+
+    <section id="header" type="hero">
+      <header-image url="https://lh3.googleusercontent.com/sitesv/AA5AbUBVccYOAdpzpu4VqOpM9CxgIdlLK3Z-adTd-3FOCmprI0P7bvarXFpF6sPsLj7A4pmJWKrynrvXLeItztaq9Doa8VWEH8tNM4XmHi2Hq32BLVik9QEDRwpByrmuVlDukcCXiJoAJOhJKEfOsDJO-OpQXTZ0yLGIs4_JiMboWq2zg4ZHKV6a2z0c=w16383"/>
+      <title>The Schedule / November 2022</title>
+    </section>
+
+    <section id="schedule" type="content">
+
+      <day label="Day 1 — Wednesday 9th of November">
+        <slot type="logistics" time="13:30 – 14:30">Arrival &amp; Registration</slot>
+        <slot type="talk" time="14:30 – 15:15">
+          <title>Proof-theoretic Semantics in London</title>
+          <slides href="https://drive.google.com/file/d/1HS5pVKVKv5NlKBPW0PvOol_H27fuchmP/view?usp=share_link"/>
+          <speaker><link href="http://www0.cs.ucl.ac.uk/staff/D.Pym/">David J. Pym</link></speaker>
+        </slot>
+        <slot type="talk" time="15:15 – 16:00">
+          <title>Natural Deduction with Alternatives</title>
+          <slides href="https://drive.google.com/file/d/1evTAPGJCbdFp0zKARGOpYEm78qbtwqNm/view?usp=share_link"/>
+          <speaker>Greg Restall</speaker>
+        </slot>
+        <slot type="logistics" time="16:00 – 16:15">coffee break</slot>
+        <slot type="talk" time="16:15 – 17:00">
+          <title>Abstract Validity-based Proof-theoretic Semantics</title>
+          <speaker>Thomas Piecha <note>remote</note></speaker>
+        </slot>
+      </day>
+
+      <day label="Day 2 — Thursday 10th of November">
+        <slot type="talk" time="11:00 – 11:45">
+          <title>Internal Categoricity as a Route to Univocal Concepts</title>
+          <slides href="https://drive.google.com/file/d/14CFHdif6mMdszvJYsLccuUccy7itt7ME/view?usp=share_link"/>
+          <speaker>Tim Button</speaker>
+        </slot>
+        <slot type="talk" time="11:45 – 12:30">
+          <title>Cut-elimination by Quasi-semantic Means</title>
+          <slides href="https://drive.google.com/file/d/1Z9pi4UThPa1fRgltd407o_hEzDgdpwcu/view?usp=share_link"/>
+          <speaker>Tor Sandqvist</speaker>
+        </slot>
+        <slot type="logistics" time="12:30 – 14:30">Lunch</slot>
+        <slot type="talk" time="14:30 – 15:15" cancelled="true">
+          <title>Proof-theoretic Validity and Proof-theoretic Completeness: A Reassessment of Prawitz's Conjecture</title>
+          <speaker>Peter Schroeder-Heister <note>remote</note></speaker>
+        </slot>
+        <slot type="talk" time="15:15 – 16:00">
+          <title>Categorical view of Base-extension Semantics for Intuitionistic Logic</title>
+          <speaker>Eike Ritter</speaker>
+        </slot>
+        <slot type="logistics" time="16:00 – 16:15">coffee break</slot>
+        <slot type="talk" time="16:15 – 17:00">
+          <title>Kripke models, Heyting algebras, Presheaves and Proof-Theoretic Semantics</title>
+          <slides href="https://drive.google.com/file/d/1mvcZzPnNh2h_aPA1h13diuAJ42zBPEkD/view?usp=share_link"/>
+          <speaker>Edmund Robinson</speaker>
+        </slot>
+      </day>
+
+      <day label="Day 3 — Friday 11th of November">
+        <slot type="talk" time="11:00 – 11:45">
+          <title>Proof Theoretic Semantics for Theories of Definite Descriptions</title>
+          <speaker>Nils Kürbis</speaker>
+        </slot>
+        <slot type="talk" time="11:45 – 12:30">
+          <title>'Bad' reductions, Paradoxes and the Meaning of Proofs</title>
+          <slides href="https://drive.google.com/file/d/1rr2hD8ztstqsgjLh_dLvLb4ji2UR3nq-/view?usp=share_link"/>
+          <speaker>Sara Ayhan</speaker>
+        </slot>
+        <slot type="logistics" time="12:30 – 14:30">Lunch</slot>
+        <slot type="talk" time="14:30 – 15:15">
+          <title>Base-extension Semantics for Modal Logics</title>
+          <slides href="https://drive.google.com/file/d/1cDLaCWxu0fQjQHxi661KypZ34QVnbx8e/view?usp=share_link"/>
+          <speaker>Timo Eckhardt</speaker>
+        </slot>
+        <slot type="talk" time="15:15 – 16:00">
+          <title>Base-extension Semantics via Logic Programming</title>
+          <slides href="https://drive.google.com/file/d/1B_QUG861N61MXGBqAoRZ2bPub1d6bF0J/view?usp=share_link"/>
+          <speaker><link href="https://www.alexandergheorghiu.com/">Alexander V. Gheorghiu</link></speaker>
+        </slot>
+      </day>
+
+    </section>
+
+    <footer>
+      <section id="organizers">
+        <heading>Organizers</heading>
+        <list>
+          <item>
+            <name><link href="https://www.alexandergheorghiu.com/">Alexander V. Gheorghiu</link></name>
+            <affiliation>University of Southampton &amp; University College London, UK</affiliation>
+          </item>
+          <item>
+            <name><link href="https://sites.google.com/view/tao-gu/about">Tao Gu</link></name>
+            <affiliation>University of Southampton &amp; University College London, UK</affiliation>
+          </item>
+          <item>
+            <name><link href="http://www0.cs.ucl.ac.uk/staff/D.Pym/">David J. Pym</link></name>
+            <affiliation>University College London &amp; Institute of Philosophy, UK</affiliation>
+          </item>
+        </list>
+      </section>
+      <section id="network">
+        <p>Part of the <link href="https://sites.google.com/view/ptsnetwork/home-page">Proof-theoretic Semantics Network</link></p>
+      </section>
+    </footer>
+
+  </page>
+
+  <page id="past-events-september-2023" title="September 2023" url="https://sites.google.com/view/pts-symposium-uk/past-events/september-2023">
+
+    <section id="header" type="hero">
+      <header-image url="https://lh3.googleusercontent.com/sitesv/AA5AbUAZHce0MgEJj-_oZfojXF6MyC8tIRgBzRSUdwB_B7c2gSfnYI0LjhAG71l_4k6RANTRmdv9uL2hIot9LosHTmZtjeieOSIsG4KSaUMOqE5mNj9Doqy4i8fO8mQPHloOQ1l0cMY6rKAwNbtsJJ2nlztsElC6nWY8UtuCVCRGCWFAWaXHEvOX4iuB=w16383"/>
+      <title>The Schedule / September 2023</title>
+      <subtitle>Co-located with TABLEAUX 2023 | September 2023</subtitle>
+    </section>
+
+    <section id="schedule">
+      <day label="Monday 18th September">
+        <slot type="logistics" time="09:00">Arrival</slot>
+        <slot type="talk" time="09:30">
+          <title>Welcome to the Symposium</title>
+          <speaker>David J. Pym</speaker>
+          <slides href="https://drive.google.com/file/d/1OMJyqstPOrbeiZogvGg8PU7DDoUKOvFr/view?usp=drive_link"/>
+        </slot>
+        <slot type="talk" time="10:00">
+          <title>Intensional Proof-theoretic Semantics and the Identity of Formula Occurrences</title>
+          <speaker>Peter Schroeder-Heister</speaker>
+        </slot>
+        <slot type="logistics" time="10:40">coffee break</slot>
+        <slot type="talk" time="11:20">
+          <title>Proof-theoretic Topics from Prawitz and Sundholm</title>
+          <speaker>Antonio Piccolomini d'Aragona</speaker>
+          <slides href="https://drive.google.com/file/d/1KgpmCNPesXGnoRNx--6asDbQ3vBD1Aeg/view?usp=drive_link"/>
+          <note>remote</note>
+        </slot>
+        <slot type="logistics" time="12:10">Lunch</slot>
+        <slot type="talk" time="14:10">
+          <title>Classical and Intuitionistic Proofs: an Ecumenical View of Proof-theoretic Semantics</title>
+          <speaker>Victor Nascimento</speaker>
+          <note>remote</note>
+        </slot>
+        <slot type="logistics" time="15:00">coffee break</slot>
+        <slot type="talk" time="15:40">
+          <title>Substructural Proof-theoretic Semantics</title>
+          <speaker>Elaine Pimentel</speaker>
+          <slides href="https://drive.google.com/file/d/1pTWOX1Qotv5K7A1PSXFwC8RkN1TLLYY8/view?usp=drive_link"/>
+        </slot>
+        <slot type="talk" time="16:30">
+          <title>Proof-theoretic Semantics for Intuitionistic Linear Logic</title>
+          <speaker>Yll Buzoku</speaker>
+          <slides href="https://drive.google.com/file/d/1-Z-m4P-Vziuzxy0v-qbiBq3gnM4LSb7l/view?usp=drive_link"/>
+        </slot>
+        <slot type="logistics" time="17:20">END OF DAY</slot>
+      </day>
+
+      <day label="Tuesday 19th September">
+        <slot type="talk" time="10:00">
+          <title>Quasi-semantic Cut-elimination and Dispensability of Disjunctive Operators in Intuitionistic Logics</title>
+          <speaker>Tor Sandqvist</speaker>
+          <slides href="https://drive.google.com/file/d/1M1juOfeJfYwZ9_GqbUhvlfRcGbn5d-81/view?usp=drive_link"/>
+        </slot>
+        <slot type="logistics" time="10:50">coffee break</slot>
+        <slot type="talk" time="11:20">
+          <title>Dummett's Fundamental Assumption in Light of Recent Results</title>
+          <speaker>Will Stafford</speaker>
+          <slides href="https://drive.google.com/file/d/1kWjWsj63ZLnby7Z_Z6W8seAbk8BySkGX/view?usp=drive_link"/>
+        </slot>
+        <slot type="talk" time="12:10">
+          <title>Modal Base-extension Semantics via Relations between Bases</title>
+          <speaker>Timo Eckhardt</speaker>
+          <slides href="https://drive.google.com/file/d/1eVoZ3fsA9mXlgwDWl3QN0F2OsL593KC9/view?usp=drive_link"/>
+        </slot>
+        <slot type="logistics" time="13:00">Lunch</slot>
+        <slot type="talk" time="14:30" cancelled="true">
+          <title>Bilateralism and Connexive Logic</title>
+          <speaker>Heinrich Wansing</speaker>
+          <note>remote</note>
+        </slot>
+        <slot type="talk" time="15:20">
+          <title>Proofs and Refutations Are the Same (and yet different)</title>
+          <speaker>Sara Ayhan</speaker>
+          <slides href="https://drive.google.com/file/d/1HyNY6KCCqYN0O9Mq1SJJZszIA-vbLqcz/view?usp=drive_link"/>
+        </slot>
+        <slot type="logistics" time="16:10">END OF SYMPOSIUM</slot>
+      </day>
+    </section>
+
+    <footer>
+      <section id="organizers">
+        <list>
+          <item><link href="https://www.alexandergheorghiu.com/">Alexander V. Gheorghiu</link></item>
+          <item><link href="https://sites.google.com/view/tao-gu/about">Tao Gu</link></item>
+          <item><link href="https://www.ucl.ac.uk/philosophy/people/academic-and-teaching-staff/david-pym">David J. Pym</link></item>
+        </list>
+      </section>
+      <section id="network">
+        <p>Part of the <link href="https://sites.google.com/view/ptsnetwork/home-page">Proof-theoretic Semantics Network</link></p>
+      </section>
+    </footer>
+
+  </page>
+
+  <page id="past-events-august-2024" title="August 2024" url="https://sites.google.com/view/pts-symposium-uk/past-events/august-2024">
+
+    <section id="header" type="hero">
+      <header-image url="https://lh3.googleusercontent.com/sitesv/AA5AbUDBKSTu2h_a4Mbb89G-jwL0j-Gz4bgRN2PtvI9akFi8p3n6tq8fusmKC0299OFtd6TFV5t9hg6uG8u3m0cQDviIHy-7L-4I9tpkpvYRFDks0zJMSnNJ00V6MxEAb29Q-eYrN0_Hr3Dfm75sH5ZtweMCQowJ0ylOPbX8se3-c_fGsT2IhhYGcX_F=w16383"/>
+      <title>The Schedule</title>
+      <subtitle>Co-located with <link href="https://2024.esslli.eu/">ESSLLI 2024</link> | July - August 2024</subtitle>
+    </section>
+
+    <section id="schedule">
+      <day label="Monday 5th of August">
+        <slot type="talk" time="17:00-17:45">
+          <title>Proof-theoretic Semantics: Inferentialist logic and modelling</title>
+          <speaker>David J. Pym</speaker>
+        </slot>
+        <slot type="talk" time="17:45-18:30">
+          <title>Plenitudinous Platonism Through Base-extension Semantics</title>
+          <speaker>Tor Sandqvist</speaker>
+        </slot>
+      </day>
+
+      <day label="Tuesday 6th of August">
+        <slot type="talk" time="17:00-17:45">
+          <title>Prawitz's Theory of Grounds: ideas, results and problems some 20 years later</title>
+          <speaker>Antonio Piccolomini d'Aragona</speaker>
+          <note>online</note>
+        </slot>
+        <slot type="talk" time="17:45-18:30">
+          <title>Towards Canonical Proofs for Second Order Intuitionistic Logic</title>
+          <speaker>Paolo Pistone</speaker>
+        </slot>
+      </day>
+
+      <day label="Wednesday 7th of August">
+        <slot type="talk" time="17:00-17:45">
+          <title>Contradictions without Negation: a bilateralist account of non-trivial inconsistent logics.</title>
+          <speaker>Sara Ayhan</speaker>
+        </slot>
+        <slot type="talk" time="17:45-18:30" cancelled="true">
+          <title>Bilateralism and Classical Logic: some comments from the intensional perspective</title>
+          <speaker>Luca Tranchini (joint work with Dennis Akdasli)</speaker>
+        </slot>
+      </day>
+
+      <day label="Thursday 8th of August">
+        <slot type="talk" time="17:00-17:45">
+          <title>A Base-extension Semantics for PAL</title>
+          <speaker>Timo Eckhardt</speaker>
+        </slot>
+        <slot type="talk" time="17:45-18:30">
+          <title>A Base-extension Semantics for PDL</title>
+          <speaker>Gabriele Brancati</speaker>
+        </slot>
+      </day>
+
+      <day label="Friday 9th of August">
+        <slot type="talk" time="17:00-17:45">
+          <title>This Talk Needs No Introductions</title>
+          <speaker>Hermógenes Oliveira</speaker>
+          <note>remote</note>
+        </slot>
+        <slot type="talk" time="17:45-18:30">
+          <title>Base-extension Semantics via Definitional Reflection</title>
+          <speaker>Tao Gu</speaker>
+        </slot>
+      </day>
+    </section>
+
+    <footer>
+      <section id="organizers">
+        <list>
+          <item><link href="https://www.alexandergheorghiu.com/">Alexander V. Gheorghiu</link> (University of Southampton &amp; University College London, UK)</item>
+          <item><link href="https://sites.google.com/view/tao-gu/about">Tao Gu</link> (University of Southampton &amp; University College London, UK)</item>
+          <item><link href="http://www0.cs.ucl.ac.uk/staff/D.Pym/">David J. Pym</link> (University College London &amp; Institute of Philosophy, UK)</item>
+        </list>
+      </section>
+      <section id="network">
+        <p>Part of the <link href="https://sites.google.com/view/ptsnetwork/home-page">Proof-theoretic Semantics Network</link></p>
+      </section>
+    </footer>
+
+  </page>
+
+  <page id="past-events-february-2025" title="February 2025" url="https://www.pts-symposium.com/past-events/february-2025">
+
+    <section id="header" type="hero">
+      <header-image url="https://lh3.googleusercontent.com/sitesv/AA5AbUCsqEfBvsizod_eiyia-yNYXXK20KcPS4UwC6BgiB6920UmHlJ8inamVD9bBD_ATkTQLU_J2Yx0BHd6zbAN4_s7zyxatlfAFYPBxFq29i6iSn04MWkqeLf75NXDmN0tk7GQ9kl7ogvHIhNNI9m_wNuH8ezY9E-eyE--jZFOIqJuayN-e07rN0jS=w16383"/>
+      <title>The Schedule</title>
+      <subtitle>Hosted by <link href="https://philosophy.sas.ac.uk/centres-partnerships/celli">CeLLi</link> at the <link href="https://philosophy.sas.ac.uk/">Institute of Philosophy</link> | February 2025</subtitle>
+    </section>
+
+    <section id="schedule">
+      <day label="Tuesday 4th of February">
+        <slot type="logistics" time="09:00">
+          <title>Arrival &amp; Registration</title>
+        </slot>
+        <slot type="talk" time="09:30">
+          <title>Welcome to the 5th Symposium on Proof-theoretic Semantics</title>
+          <speaker>David J. Pym</speaker>
+        </slot>
+        <slot type="talk" time="10:00">
+          <title>Logics of Proof-theoretic Validity</title>
+          <speaker>Thomas Piecha</speaker>
+        </slot>
+        <slot type="talk" time="11:00">
+          <title>Proof-theoretic Semantics for Intuitionistic Linear Logic: Two Approaches</title>
+          <speaker>Victor Nascimento</speaker>
+          <slides href="https://drive.google.com/file/d/1I2A5RQfBnMLP2pZ2AiTr-6kjxQPUS0hd/view?usp=sharing"/>
+        </slot>
+        <slot type="break" time="12:00">
+          <title>Lunch</title>
+        </slot>
+        <slot type="talk" time="13:30">
+          <title>Translations between bases in Base-extension Semantics</title>
+          <speaker>Yll Buzoku</speaker>
+          <slides href="https://drive.google.com/file/d/17J97H2I5rCKhxeb0OBMzlRQN5cH0vMBr/view?usp=sharing"/>
+        </slot>
+        <slot type="break" time="15:00">
+          <title>Coffee Break</title>
+        </slot>
+        <slot type="talk" time="15:30">
+          <title>Inference Behaviour Semantics for all* Connectives in Two-dimensional Sequent Calculi</title>
+          <speaker>Sophie Nagler</speaker>
+          <slides href="https://drive.google.com/file/d/1VW6U5Z83Gmr6fxjAMmquqtDx5X0G6Snk/view?usp=sharing"/>
+        </slot>
+      </day>
+
+      <day label="Wednesday 5th of February">
+        <slot type="talk" time="10:00">
+          <title>Base-extension Semantics as Meaning Theory: Some philosophical remarks on negation, disjunction, and quantification</title>
+          <speaker>Tor Sandqvist</speaker>
+          <slides href="https://drive.google.com/file/d/1kXejCQYCcOoT6b_Gk2uoOMBojlh10gqo/view?usp=drive_link"/>
+          <note>remote</note>
+        </slot>
+        <slot type="talk" time="11:00">
+          <title>Deep Semantic Pollution</title>
+          <speaker>Gabriel Pulcini</speaker>
+        </slot>
+        <slot type="break" time="12:00">
+          <title>Lunch</title>
+        </slot>
+        <slot type="talk" time="13:30">
+          <title>Mapping the Landscape of Logical Bilateralism</title>
+          <speaker>Sara Ayhan</speaker>
+          <slides href="https://drive.google.com/file/d/1pqDE_ehXx1uAEbAHDQ7aaNDwOnH2aKJs/view?usp=sharing"/>
+        </slot>
+        <slot type="break" time="14:30">
+          <title>Coffee Break</title>
+        </slot>
+        <slot type="talk" time="15:00">
+          <title>Bilateralism and Classical Logic: some comments from the intensional perspective</title>
+          <speaker>Luca Tranchini</speaker>
+          <slides href="https://drive.google.com/file/d/10gmOaxzJynxAfJIliAMk0hh5fAnTf4FM/view?usp=sharing"/>
+        </slot>
+      </day>
+
+      <day label="Thursday 6th of February">
+        <slot type="talk" time="10:00">
+          <title>The Expressive Power of Inferentialism: insights into educational practices.</title>
+          <speaker>Jan Derry</speaker>
+        </slot>
+        <slot type="talk" time="11:00">
+          <title>From Normalisation to Proof-theoretic Semantics: the semantic role of harmony, atomic bases and reductions</title>
+          <speaker>Antonio Piccolomini d'Aragona</speaker>
+        </slot>
+        <slot type="break" time="12:00">
+          <title>Coffee Break</title>
+        </slot>
+        <slot type="talk" time="12:15">
+          <title>Inferentialism and Two Types of Correctness</title>
+          <speaker>Bartosz Kaluzinski</speaker>
+          <slides href="https://drive.google.com/file/d/1SDaj87QUZWJpbW0bU0RZKN-F_BQBXz4P/view?usp=sharing"/>
+          <note>remote</note>
+        </slot>
+      </day>
+    </section>
+
+    <footer>
+      <section id="organizers">
+        <list>
+          <item><link href="https://www.alexandergheorghiu.com/">Alexander V. Gheorghiu</link> (University of Southampton &amp; University College London, UK)</item>
+          <item><link href="https://sites.google.com/view/tao-gu/about">Tao Gu</link> (University of Southampton &amp; University College London, UK)</item>
+          <item><link href="http://www0.cs.ucl.ac.uk/staff/D.Pym/">David J. Pym</link> (University College London &amp; Institute of Philosophy, UK)</item>
+        </list>
+      </section>
+      <section id="network">
+        <p>Part of the <link href="https://sites.google.com/view/ptsnetwork/home-page">Proof-theoretic Semantics Network</link></p>
+      </section>
+    </footer>
+
+  </page>
+
+  <page id="past-events-february-2026" title="February 2026" url="https://www.pts-symposium.com/past-events/february-2026">
+
+    <section id="header" type="hero">
+      <header-image url="https://lh3.googleusercontent.com/sitesv/AA5AbUDvce_KkOCdimi-4Ro-sQTUdH_3juMsPJRdIOssmRWWeB90gXLtyqLpDGufK9byiggn4vq5fwmjjsqDd-Ua9GAmIombhojpMrfEdF_6qovf5Wqr1pQXflleU29DbZ0sHsIo3X-thN3cd4xMug4B9Odys0JgoKuM0IyVBC2MLFnwiLgf7cjmD64O=w16383"/>
+      <title>The Schedule</title>
+      <subtitle>Hosted by <link href="https://philosophy.sas.ac.uk/centres-partnerships/celli">CeLLi</link> at the <link href="https://philosophy.sas.ac.uk/">Institute of Philosophy</link> | February 2026</subtitle>
+    </section>
+
+    <section id="schedule">
+      <day label="Monday 9th of February">
+        <slot type="logistics" time="09:00">
+          <title>Arrival &amp; Registration</title>
+        </slot>
+        <slot type="talk" time="09:45">
+          <title>Welcome to the Symposium</title>
+          <speaker>David J. Pym</speaker>
+        </slot>
+        <slot type="talk" time="10:00">
+          <title>Variants of Proof-theoretic Semantics: Pros and Cons</title>
+          <speaker>Peter Schroeder-Heister</speaker>
+        </slot>
+        <slot type="talk" time="11:00">
+          <title>Meaning Dependence in Proof-Theoretic Semantics and SASC Systems</title>
+          <speaker>Leonardo Ceragioli</speaker>
+        </slot>
+        <slot type="break" time="12:00">
+          <title>Lunch</title>
+        </slot>
+        <slot type="talk" time="13:30">
+          <title>Content-based Entailment</title>
+          <speaker>Gabriele Pulcini</speaker>
+        </slot>
+        <slot type="break" time="14:30">
+          <title>Coffee Break</title>
+        </slot>
+        <slot type="talk" time="15:00">
+          <title>A More General Approach to Proof-theoretic Semantics</title>
+          <speaker>Edmund Robinson</speaker>
+        </slot>
+      </day>
+
+      <day label="Tuesday 10th of February">
+        <slot type="talk" time="10:00">
+          <title>Towards an Inferentialist Account of Information and Situation</title>
+          <speaker>Matthew Collinson</speaker>
+        </slot>
+        <slot type="talk" time="11:00">
+          <title>Ideas on Agency in an Inferentialist Account of Information</title>
+          <speaker>Timo Eckhardt</speaker>
+          <note>remote</note>
+        </slot>
+        <slot type="break" time="12:00">
+          <title>Lunch</title>
+        </slot>
+        <slot type="talk" time="13:30">
+          <title>From Tonk to Harmony via Identity and Cut</title>
+          <speaker>Allard Tamminga</speaker>
+        </slot>
+        <slot type="talk" time="13:50">
+          <title>A Base-extension Semantics for a Paraconsistent Logic</title>
+          <speaker>Gabriele Brancati Abate</speaker>
+        </slot>
+        <slot type="talk" time="14:10">
+          <title>Feasible Counterfactuals for Accountability and Recourse</title>
+          <speaker>Pinaki Chakraborty</speaker>
+        </slot>
+        <slot type="break" time="14:30">
+          <title>Coffee Break</title>
+        </slot>
+        <slot type="talk" time="15:00">
+          <title>Curry-Howard: What is it good for?</title>
+          <speaker>Will Stafford</speaker>
+          <note>remote</note>
+        </slot>
+      </day>
+
+      <day label="Wednesday 11th of February">
+        <slot type="talk" time="10:00">
+          <title>Constructive Validity of Classical Principles: an unpublished note by Dag Prawitz</title>
+          <speaker>Luiz Carlos Pereira</speaker>
+          <note>remote</note>
+        </slot>
+        <slot type="talk" time="11:00">
+          <title>Proof-theoretic Semantics as a Generalisation of Model-theoretic Semantics</title>
+          <speaker>Victor Barroso-Nascimento</speaker>
+        </slot>
+        <slot type="break" time="12:00">
+          <title>Coffee Break</title>
+        </slot>
+        <slot type="talk" time="12:20">
+          <title>From Phase Semantics to Base-extension Semantics</title>
+          <speaker>Ekaterina Piotrovskaya</speaker>
+        </slot>
+        <slot type="talk" time="12:40">
+          <title>A Base-extension Semantics approach to Bilateralism</title>
+          <speaker>Maria Osório Oliveira Costa</speaker>
+        </slot>
+        <slot type="talk" time="13:00">
+          <title>Base-extension Semantics for Prawitz's Ecumenical System</title>
+          <speaker>Joaquim Waddington</speaker>
+        </slot>
+      </day>
+    </section>
+
+    <footer>
+      <section id="organizers">
+        <list>
+          <item><link href="https://www.alexandergheorghiu.com/">Alexander V. Gheorghiu</link> (University of Southampton &amp; University College London, UK)</item>
+          <item><link href="https://sites.google.com/view/tao-gu/about">Tao Gu</link> (University of Southampton &amp; University College London, UK)</item>
+          <item><link href="http://www0.cs.ucl.ac.uk/staff/D.Pym/">David J. Pym</link> (University College London &amp; Institute of Philosophy, UK)</item>
+        </list>
+      </section>
+      <section id="network">
+        <p>Part of the <link href="https://sites.google.com/view/ptsnetwork/home-page">Proof-theoretic Semantics Network</link></p>
+      </section>
+    </footer>
+
+  </page>
+
+</website>
