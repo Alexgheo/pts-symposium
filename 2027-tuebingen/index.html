@@ -33,31 +33,73 @@
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
- "@type": "Event",
- "name": "The Seventh Symposium on Proof-theoretic Semantics",
- "startDate": "2027-03-17",
- "endDate": "2027-03-19",
- "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
- "eventStatus": "https://schema.org/EventScheduled",
- "location": {
-  "@type": "Place",
-  "name": "University of Tübingen",
-  "address": {
-   "@type": "PostalAddress",
-   "addressLocality": "Tübingen",
-   "addressCountry": "DE"
-  }
- },
- "url": "https://www.pts-symposium.com/2027-tuebingen/",
- "organizer": [
+ "@graph": [
   {
-   "@type": "Person",
-   "name": "Alexander V. Gheorghiu",
-   "url": "https://www.alexandergheorghiu.com/"
+   "@type": "Event",
+   "@id": "https://www.pts-symposium.com/2027-tuebingen/#event",
+   "name": "The Seventh Symposium on Proof-theoretic Semantics",
+   "url": "https://www.pts-symposium.com/2027-tuebingen/",
+   "startDate": "2027-03-17",
+   "endDate": "2027-03-19",
+   "description": "The Seventh Symposium on Proof-theoretic Semantics meets at the University of Tübingen, 17–19 March 2027. Call for papers, key dates, programme and venue.",
+   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "location": {
+    "@type": "Place",
+    "name": "University of Tübingen",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Tübingen",
+     "addressCountry": "DE",
+     "addressRegion": "Baden-Württemberg"
+    }
+   },
+   "image": [
+    "https://www.pts-symposium.com/images/share/2027-tuebingen.jpg"
+   ],
+   "organizer": [
+    {
+     "@id": "https://www.pts-symposium.com/#organization"
+    },
+    {
+     "@type": "Person",
+     "name": "Alexander V. Gheorghiu",
+     "url": "https://www.alexandergheorghiu.com/",
+     "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "University College London"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Antonio Piccolomini d'Aragona",
+     "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Tübingen"
+     }
+    }
+   ],
+   "superEvent": {
+    "@id": "https://www.pts-symposium.com/#series"
+   },
+   "inLanguage": "en"
   },
   {
-   "@type": "Person",
-   "name": "Antonio Piccolomini d'Aragona"
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.pts-symposium.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Seventh Symposium (2027)",
+     "item": "https://www.pts-symposium.com/2027-tuebingen/"
+    }
+   ]
   }
  ]
 }

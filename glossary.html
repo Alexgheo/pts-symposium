@@ -33,195 +33,358 @@
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
- "@type": "DefinedTermSet",
- "name": "Glossary of proof-theoretic semantics",
- "url": "https://www.pts-symposium.com/glossary.html",
- "hasDefinedTerm": [
+ "@graph": [
   {
-   "@type": "DefinedTerm",
-   "name": "Admissible rule",
-   "url": "https://www.pts-symposium.com/glossary.html#admissible-rule",
-   "description": "A rule is admissible in a system if adding it does not enlarge the set of what the system derives; it is derivable if it can be obtained by chaining the rules of the system. Lorenzen's operative logic reads an implication A → B as the statement that the rule from A to B is admissible with respect to an underlying atomic calculus. The distinction matters for semantical completeness: Harrop's rule is admissible, but not derivable, in intuitionistic logic."
+   "@type": "DefinedTermSet",
+   "@id": "https://www.pts-symposium.com/glossary.html#terms",
+   "name": "Glossary of proof-theoretic semantics",
+   "url": "https://www.pts-symposium.com/glossary.html",
+   "inLanguage": "en",
+   "publisher": {
+    "@id": "https://www.pts-symposium.com/#organization"
+   },
+   "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "Proof-Theoretic Semantics",
+    "url": "https://plato.stanford.edu/entries/proof-theoretic-semantics/",
+    "author": {
+     "@type": "Person",
+     "name": "Peter Schroeder-Heister"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "Stanford Encyclopedia of Philosophy"
+    }
+   },
+   "hasDefinedTerm": [
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#admissible-rule",
+     "name": "Admissible rule",
+     "url": "https://www.pts-symposium.com/glossary.html#admissible-rule",
+     "description": "A rule is admissible in a system if adding it does not enlarge the set of what the system derives; it is derivable if it can be obtained by chaining the rules of the system. Lorenzen’s operative logic reads an implication A → B as the statement that the rule from A to B is admissible with respect to an underlying atomic calculus. The distinction matters for semantical completeness: Harrop’s rule is admissible, but not derivable, in intuitionistic logic.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#anti-realism",
+     "name": "Anti-realism",
+     "url": "https://www.pts-symposium.com/glossary.html#anti-realism",
+     "description": "The rejection of the realist view that every sentence is determinately true or false independently of our means of recognising it. Dummett associated the logical position of intuitionism with anti-realism, and much of proof-theoretic semantics follows him in this.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#atomic-base",
+     "name": "Atomic base",
+     "url": "https://www.pts-symposium.com/glossary.html#atomic-base",
+     "description": "The system of rules that fixes derivability for atomic sentences. It plays a role analogous to that of a model in model-theoretic semantics: validity is defined relative to a base, and logical validity as validity relative to every base. Candidate bases range from sets of atoms, through production systems with rules A1, …, An ⇒ B, to systems whose rules discharge assumptions or other rules. Which bases are admitted affects the formal results, notably completeness. Also called an atomic system.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#base-extension-semantics",
+     "name": "Base-extension semantics",
+     "url": "https://www.pts-symposium.com/glossary.html#base-extension-semantics",
+     "description": "A sentence-based semantics in which the validity of an implication is defined by quantifying over extensions of the atomic base: A → B is valid in a base S if, for every extension S′ of S, the validity of A in S′ yields the validity of B in S′. Following Sandqvist (2015), the term is often used more narrowly for a semantics of this kind in which disjunction receives a non-standard clause, under which intuitionistic propositional logic is complete.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#bhk-interpretation",
+     "name": "BHK interpretation",
+     "url": "https://www.pts-symposium.com/glossary.html#bhk-interpretation",
+     "description": "The Brouwer–Heyting–Kolmogorov interpretation of the logical constants in terms of proofs or constructions: less a single formal semantics than a family of related, often informal, ideas. Its functional reading of implication, on which a proof of A → B is a construction transforming any proof of A into a proof of B, underlies the approaches of Lorenzen, Prawitz and Martin-Löf.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#bilateralism",
+     "name": "Bilateralism",
+     "url": "https://www.pts-symposium.com/glossary.html#bilateralism",
+     "description": "The view, so named by Rumfitt, that the meaning of a sentence, and hence of the logical constants, is given by conditions for its denial as well as for its assertion. Bilateral systems supply rules of both kinds for each connective, and raise the question of a harmony between assertion and denial.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#canonical-proof",
+     "name": "Canonical proof",
+     "url": "https://www.pts-symposium.com/glossary.html#canonical-proof",
+     "description": "A proof whose last step is an application of an introduction rule. In Prawitz’s theory of validity, closed canonical proofs are primary, and other proofs are justified by reduction to canonical form.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#categorial-proof-theory",
+     "name": "Categorial proof theory",
+     "url": "https://www.pts-symposium.com/glossary.html#categorial-proof-theory",
+     "description": "The study of proofs by the methods of category theory, in which an arrow A → B is regarded as an abstract proof of B from A, together with an identity relation that corresponds to the identity of proofs. Because it takes hypothetical entities as basic, it departs from the priority of categorical (closed) proofs assumed in validity-based semantics.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#constructive-type-theory",
+     "name": "Constructive type theory",
+     "url": "https://www.pts-symposium.com/glossary.html#constructive-type-theory",
+     "description": "Martin-Löf’s type theory. It shares the core assumptions of Prawitz’s theory of validity, but distinguishes proof objects, the terms t in judgements t : A, from demonstrations of such judgements, and treats formation rules as part of the system itself. The meaning of a proposition is explained by what counts as a proof object for it.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#curry-howard-correspondence",
+     "name": "Curry–Howard correspondence",
+     "url": "https://www.pts-symposium.com/glossary.html#curry-howard-correspondence",
+     "description": "The correspondence between formulas and types, and between proofs and terms, under which the statement that a term t has type A codes the fact that t is a proof of A.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#definitional-reflection",
+     "name": "Definitional reflection",
+     "url": "https://www.pts-symposium.com/glossary.html#definitional-reflection",
+     "description": "An approach, due to Hallnäs and Schroeder-Heister, that extends proof-theoretic semantics from logical constants to any atom given by a clausal definition, as in logic programming. The clauses supply introduction rules (definitional closure); the elimination rule, definitional reflection, states that whatever follows from every defining condition of an atom follows from the atom itself. It generalises the inversion principle and applies also to definitions that are not well-founded.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#denial",
+     "name": "Denial",
+     "url": "https://www.pts-symposium.com/glossary.html#denial",
+     "description": "A primitive form of negation that is neither reduced to implying absurdity nor classical, and whose rules dualise the assertion rules for the logical constants. It is also called direct or strong negation, as in Nelson’s logics of constructible falsity. See also bilateralism.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#ecumenical-system",
+     "name": "Ecumenical system",
+     "url": "https://www.pts-symposium.com/glossary.html#ecumenical-system",
+     "description": "A logical system in which classical and intuitionistic connectives coexist faithfully. A naive combination of their rules collapses into classical logic, as Popper first observed; ecumenical systems are designed to avoid this collapse.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#fundamental-assumption",
+     "name": "Fundamental assumption",
+     "url": "https://www.pts-symposium.com/glossary.html#fundamental-assumption",
+     "description": "Dummett’s name for the principle that whatever can be established can be established by a canonical proof. It is the philosophical reading of the fact that every closed derivation in intuitionistic natural deduction reduces to one ending in an introduction rule.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#general-proof-theory",
+     "name": "General proof theory",
+     "url": "https://www.pts-symposium.com/glossary.html#general-proof-theory",
+     "description": "Prawitz’s term for the study of proofs in their own right, with the aim of understanding their nature, as distinct from reductive proof theory in the tradition of Hilbert, which analyses proofs in order to reduce mathematical theories to more elementary parts of mathematics. Proof-theoretic semantics belongs to general proof theory.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#harmony",
+     "name": "Harmony",
+     "url": "https://www.pts-symposium.com/glossary.html#harmony",
+     "description": "The requirement that the introduction and elimination rules for a constant fit together, so that the elimination rules allow one to infer from a formula only what is warranted by the grounds for asserting it given by its introduction rules. The term is Dummett’s. Its precise formulation is not uniform in the literature, and it is closely related to inversion. Harmony excludes connectives such as tonk.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#higher-level-rules",
+     "name": "Higher-level rules",
+     "url": "https://www.pts-symposium.com/glossary.html#higher-level-rules",
+     "description": "Rules that may discharge not only assumed formulas but assumed rules. Schroeder-Heister used them to give general introduction and elimination schemata for arbitrary propositional connectives, and to show that the standard intuitionistic connectives are expressively complete.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#identity-of-proofs",
+     "name": "Identity of proofs",
+     "url": "https://www.pts-symposium.com/glossary.html#identity-of-proofs",
+     "description": "The question of when two derivations represent the same proof. It has been on the agenda of general proof theory from the outset, and is central to intensional proof-theoretic semantics and categorial proof theory. The choice of proof reductions is one way of fixing it.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#inferentialism",
+     "name": "Inferentialism",
+     "url": "https://www.pts-symposium.com/glossary.html#inferentialism",
+     "description": "The view, so named by Brandom, that the meaning of expressions is established by inferences and rules of inference, in contrast to denotationalism, on which denotations are the primary sort of meaning. Together with the view of meaning as use, it is the broad philosophical setting of proof-theoretic semantics.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#intensional-proof-theoretic-semantics",
+     "name": "Intensional proof-theoretic semantics",
+     "url": "https://www.pts-symposium.com/glossary.html#intensional-proof-theoretic-semantics",
+     "description": "The part of the field concerned not only with whether B follows from A, but with the ways in which it does, so that proofs are studied as entities in their own right and equally strong rules need not be identified. For example, A ∧ B and A ∧ (A → B) are interderivable but not isomorphic.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#introduction-and-elimination-rules",
+     "name": "Introduction and elimination rules",
+     "url": "https://www.pts-symposium.com/glossary.html#introduction-and-elimination-rules",
+     "description": "In natural deduction the rules for a logical constant come in pairs. Introduction rules infer a formula with that constant as its main operator; elimination rules draw consequences from such a formula. Gentzen remarked that the introduction rules represent, as it were, the definitions of the constants, and the elimination rules the consequences of these definitions.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#inversion-principle",
+     "name": "Inversion principle",
+     "url": "https://www.pts-symposium.com/glossary.html#inversion-principle",
+     "description": "A principle, named by Lorenzen and formulated for natural deduction by Prawitz, by which elimination rules are justified with respect to introduction rules: whatever can be obtained from every defining condition of a formula can be obtained from the formula itself. In Prawitz’s formulation it guarantees that an introduction immediately followed by an elimination can be removed from a derivation.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#natural-deduction",
+     "name": "Natural deduction",
+     "url": "https://www.pts-symposium.com/glossary.html#natural-deduction",
+     "description": "Gentzen’s calculus, in Prawitz’s presentation the background to most approaches to proof-theoretic semantics. Its central features are the discharge of assumptions, the separation of constants (each primitive rule schema contains a single logical constant), and the pairing of introduction and elimination rules.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#normalization",
+     "name": "Normalization",
+     "url": "https://www.pts-symposium.com/glossary.html#normalization",
+     "description": "The transformation of a derivation, by successive reduction steps, into a normal form that contains no detours, a detour being an introduction immediately followed by an elimination. Normalization for natural deduction was first investigated systematically by Prawitz (1965).",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#prawitzs-conjecture",
+     "name": "Prawitz’s conjecture",
+     "url": "https://www.pts-symposium.com/glossary.html#prawitzs-conjecture",
+     "description": "The conjecture that intuitionistic logic is complete with respect to proof-theoretic validity: whatever is valid with respect to every atomic base is derivable in intuitionistic logic. In sentence-based semantics with bases extended by inclusion the corresponding claim fails, since Harrop’s rule is validated (Piecha and Schroeder-Heister, 2019). Whether completeness holds depends on how bases and their extensions are treated.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#proof-theoretic-semantics",
+     "name": "Proof-theoretic semantics",
+     "url": "https://www.pts-symposium.com/glossary.html#proof-theoretic-semantics",
+     "description": "An alternative to truth-conditional semantics, in which the central notion for assigning meaning to expressions, in particular to the logical constants, is proof rather than truth. The term covers both semantics in terms of proofs and the semantics of proofs themselves. It was proposed by Schroeder-Heister; the first conference under that name was held in Tübingen in 1999.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#proof-theoretic-validity",
+     "name": "Proof-theoretic validity",
+     "url": "https://www.pts-symposium.com/glossary.html#proof-theoretic-validity",
+     "description": "The leading approach in proof-theoretic semantics, developed by Prawitz from a notion of Tait’s and given philosophical underpinning by Dummett. Relative to an atomic base and a set of reductions: a closed canonical proof is valid if its immediate subproofs are; a closed non-canonical proof is valid if it reduces to a valid canonical one; and an open proof is valid if every closed instance, obtained by replacing its assumptions with closed valid proofs, is valid.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#reductive-logic",
+     "name": "Reductive logic",
+     "url": "https://www.pts-symposium.com/glossary.html#reductive-logic",
+     "description": "The study of reasoning that proceeds backwards, from a putative conclusion towards premisses sufficient to establish it, as in proof search, rather than forwards from established premisses. It has been proposed that such reductive processes can themselves constitute meaning, as in dialogical and game-theoretic semantics.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#sentence-based-semantics",
+     "name": "Sentence-based semantics",
+     "url": "https://www.pts-symposium.com/glossary.html#sentence-based-semantics",
+     "description": "A form of proof-theoretic semantics that defines the validity of sentences directly, relative to an atomic base, without reference to proofs of complex sentences; proofs enter only at the atomic level. It is technically simpler than the validity of proofs, yet suffices for questions such as completeness. Base-extension semantics is a form of it.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#substructural-logics",
+     "name": "Substructural logics",
+     "url": "https://www.pts-symposium.com/glossary.html#substructural-logics",
+     "description": "Logics that restrict the structural rules, such as weakening and contraction, so that the way assumptions are structured matters. They include relevant and resource-sensitive logics, such as linear logic, and the logic of bunched implications, in which different ways of combining assumptions coexist.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://www.pts-symposium.com/glossary.html#tonk",
+     "name": "Tonk",
+     "url": "https://www.pts-symposium.com/glossary.html#tonk",
+     "description": "Prior’s connective, whose introduction rule is that of disjunction and whose elimination rule is that of conjunction, so that any sentence becomes derivable from any other. It shows that not every pair of introduction and elimination rules defines a meaningful constant, and motivates conditions such as harmony.",
+     "inDefinedTermSet": {
+      "@id": "https://www.pts-symposium.com/glossary.html#terms"
+     }
+    }
+   ]
   },
   {
-   "@type": "DefinedTerm",
-   "name": "Anti-realism",
-   "url": "https://www.pts-symposium.com/glossary.html#anti-realism",
-   "description": "The rejection of the realist view that every sentence is determinately true or false independently of our means of recognising it. Dummett associated the logical position of intuitionism with anti-realism, and much of proof-theoretic semantics follows him in this."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Atomic base",
-   "url": "https://www.pts-symposium.com/glossary.html#atomic-base",
-   "description": "The system of rules that fixes derivability for atomic sentences. It plays a role analogous to that of a model in model-theoretic semantics: validity is defined relative to a base, and logical validity as validity relative to every base. Candidate bases range from sets of atoms, through production systems with rules A1, …, An ⇒ B, to systems whose rules discharge assumptions or other rules. Which bases are admitted affects the formal results, notably completeness. Also called an atomic system."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Base-extension semantics",
-   "url": "https://www.pts-symposium.com/glossary.html#base-extension-semantics",
-   "description": "A sentence-based semantics in which the validity of an implication is defined by quantifying over extensions of the atomic base: A → B is valid in a base S if, for every extension S′ of S, the validity of A in S′ yields the validity of B in S′. Following Sandqvist (2015), the term is often used more narrowly for a semantics of this kind in which disjunction receives a non-standard clause, under which intuitionistic propositional logic is complete."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "BHK interpretation",
-   "url": "https://www.pts-symposium.com/glossary.html#bhk-interpretation",
-   "description": "The Brouwer–Heyting–Kolmogorov interpretation of the logical constants in terms of proofs or constructions: less a single formal semantics than a family of related, often informal, ideas. Its functional reading of implication, on which a proof of A → B is a construction transforming any proof of A into a proof of B, underlies the approaches of Lorenzen, Prawitz and Martin-Löf."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Bilateralism",
-   "url": "https://www.pts-symposium.com/glossary.html#bilateralism",
-   "description": "The view, so named by Rumfitt, that the meaning of a sentence, and hence of the logical constants, is given by conditions for its denial as well as for its assertion. Bilateral systems supply rules of both kinds for each connective, and raise the question of a harmony between assertion and denial."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Canonical proof",
-   "url": "https://www.pts-symposium.com/glossary.html#canonical-proof",
-   "description": "A proof whose last step is an application of an introduction rule. In Prawitz's theory of validity, closed canonical proofs are primary, and other proofs are justified by reduction to canonical form."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Categorial proof theory",
-   "url": "https://www.pts-symposium.com/glossary.html#categorial-proof-theory",
-   "description": "The study of proofs by the methods of category theory, in which an arrow A → B is regarded as an abstract proof of B from A, together with an identity relation that corresponds to the identity of proofs. Because it takes hypothetical entities as basic, it departs from the priority of categorical (closed) proofs assumed in validity-based semantics."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Constructive type theory",
-   "url": "https://www.pts-symposium.com/glossary.html#constructive-type-theory",
-   "description": "Martin-Löf's type theory. It shares the core assumptions of Prawitz's theory of validity, but distinguishes proof objects, the terms t in judgements t : A, from demonstrations of such judgements, and treats formation rules as part of the system itself. The meaning of a proposition is explained by what counts as a proof object for it."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Curry–Howard correspondence",
-   "url": "https://www.pts-symposium.com/glossary.html#curry-howard-correspondence",
-   "description": "The correspondence between formulas and types, and between proofs and terms, under which the statement that a term t has type A codes the fact that t is a proof of A."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Definitional reflection",
-   "url": "https://www.pts-symposium.com/glossary.html#definitional-reflection",
-   "description": "An approach, due to Hallnäs and Schroeder-Heister, that extends proof-theoretic semantics from logical constants to any atom given by a clausal definition, as in logic programming. The clauses supply introduction rules (definitional closure); the elimination rule, definitional reflection, states that whatever follows from every defining condition of an atom follows from the atom itself. It generalises the inversion principle and applies also to definitions that are not well-founded."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Denial",
-   "url": "https://www.pts-symposium.com/glossary.html#denial",
-   "description": "A primitive form of negation that is neither reduced to implying absurdity nor classical, and whose rules dualise the assertion rules for the logical constants. It is also called direct or strong negation, as in Nelson's logics of constructible falsity. See also bilateralism."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Ecumenical system",
-   "url": "https://www.pts-symposium.com/glossary.html#ecumenical-system",
-   "description": "A logical system in which classical and intuitionistic connectives coexist faithfully. A naive combination of their rules collapses into classical logic, as Popper first observed; ecumenical systems are designed to avoid this collapse."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Fundamental assumption",
-   "url": "https://www.pts-symposium.com/glossary.html#fundamental-assumption",
-   "description": "Dummett's name for the principle that whatever can be established can be established by a canonical proof. It is the philosophical reading of the fact that every closed derivation in intuitionistic natural deduction reduces to one ending in an introduction rule."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "General proof theory",
-   "url": "https://www.pts-symposium.com/glossary.html#general-proof-theory",
-   "description": "Prawitz's term for the study of proofs in their own right, with the aim of understanding their nature, as distinct from reductive proof theory in the tradition of Hilbert, which analyses proofs in order to reduce mathematical theories to more elementary parts of mathematics. Proof-theoretic semantics belongs to general proof theory."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Harmony",
-   "url": "https://www.pts-symposium.com/glossary.html#harmony",
-   "description": "The requirement that the introduction and elimination rules for a constant fit together, so that the elimination rules allow one to infer from a formula only what is warranted by the grounds for asserting it given by its introduction rules. The term is Dummett's. Its precise formulation is not uniform in the literature, and it is closely related to inversion. Harmony excludes connectives such as tonk."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Higher-level rules",
-   "url": "https://www.pts-symposium.com/glossary.html#higher-level-rules",
-   "description": "Rules that may discharge not only assumed formulas but assumed rules. Schroeder-Heister used them to give general introduction and elimination schemata for arbitrary propositional connectives, and to show that the standard intuitionistic connectives are expressively complete."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Identity of proofs",
-   "url": "https://www.pts-symposium.com/glossary.html#identity-of-proofs",
-   "description": "The question of when two derivations represent the same proof. It has been on the agenda of general proof theory from the outset, and is central to intensional proof-theoretic semantics and categorial proof theory. The choice of proof reductions is one way of fixing it."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Inferentialism",
-   "url": "https://www.pts-symposium.com/glossary.html#inferentialism",
-   "description": "The view, so named by Brandom, that the meaning of expressions is established by inferences and rules of inference, in contrast to denotationalism, on which denotations are the primary sort of meaning. Together with the view of meaning as use, it is the broad philosophical setting of proof-theoretic semantics."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Intensional proof-theoretic semantics",
-   "url": "https://www.pts-symposium.com/glossary.html#intensional-proof-theoretic-semantics",
-   "description": "The part of the field concerned not only with whether B follows from A, but with the ways in which it does, so that proofs are studied as entities in their own right and equally strong rules need not be identified. For example, A ∧ B and A ∧ (A → B) are interderivable but not isomorphic."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Introduction and elimination rules",
-   "url": "https://www.pts-symposium.com/glossary.html#introduction-and-elimination-rules",
-   "description": "In natural deduction the rules for a logical constant come in pairs. Introduction rules infer a formula with that constant as its main operator; elimination rules draw consequences from such a formula. Gentzen remarked that the introduction rules represent, as it were, the definitions of the constants, and the elimination rules the consequences of these definitions."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Inversion principle",
-   "url": "https://www.pts-symposium.com/glossary.html#inversion-principle",
-   "description": "A principle, named by Lorenzen and formulated for natural deduction by Prawitz, by which elimination rules are justified with respect to introduction rules: whatever can be obtained from every defining condition of a formula can be obtained from the formula itself. In Prawitz's formulation it guarantees that an introduction immediately followed by an elimination can be removed from a derivation."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Natural deduction",
-   "url": "https://www.pts-symposium.com/glossary.html#natural-deduction",
-   "description": "Gentzen's calculus, in Prawitz's presentation the background to most approaches to proof-theoretic semantics. Its central features are the discharge of assumptions, the separation of constants (each primitive rule schema contains a single logical constant), and the pairing of introduction and elimination rules."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Normalization",
-   "url": "https://www.pts-symposium.com/glossary.html#normalization",
-   "description": "The transformation of a derivation, by successive reduction steps, into a normal form that contains no detours, a detour being an introduction immediately followed by an elimination. Normalization for natural deduction was first investigated systematically by Prawitz (1965)."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Prawitz’s conjecture",
-   "url": "https://www.pts-symposium.com/glossary.html#prawitzs-conjecture",
-   "description": "The conjecture that intuitionistic logic is complete with respect to proof-theoretic validity: whatever is valid with respect to every atomic base is derivable in intuitionistic logic. In sentence-based semantics with bases extended by inclusion the corresponding claim fails, since Harrop's rule is validated (Piecha and Schroeder-Heister, 2019). Whether completeness holds depends on how bases and their extensions are treated."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Proof-theoretic semantics",
-   "url": "https://www.pts-symposium.com/glossary.html#proof-theoretic-semantics",
-   "description": "An alternative to truth-conditional semantics, in which the central notion for assigning meaning to expressions, in particular to the logical constants, is proof rather than truth. The term covers both semantics in terms of proofs and the semantics of proofs themselves. It was proposed by Schroeder-Heister; the first conference under that name was held in Tübingen in 1999."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Proof-theoretic validity",
-   "url": "https://www.pts-symposium.com/glossary.html#proof-theoretic-validity",
-   "description": "The leading approach in proof-theoretic semantics, developed by Prawitz from a notion of Tait's and given philosophical underpinning by Dummett. Relative to an atomic base and a set of reductions: a closed canonical proof is valid if its immediate subproofs are; a closed non-canonical proof is valid if it reduces to a valid canonical one; and an open proof is valid if every closed instance, obtained by replacing its assumptions with closed valid proofs, is valid."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Reductive logic",
-   "url": "https://www.pts-symposium.com/glossary.html#reductive-logic",
-   "description": "The study of reasoning that proceeds backwards, from a putative conclusion towards premisses sufficient to establish it, as in proof search, rather than forwards from established premisses. It has been proposed that such reductive processes can themselves constitute meaning, as in dialogical and game-theoretic semantics."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Sentence-based semantics",
-   "url": "https://www.pts-symposium.com/glossary.html#sentence-based-semantics",
-   "description": "A form of proof-theoretic semantics that defines the validity of sentences directly, relative to an atomic base, without reference to proofs of complex sentences; proofs enter only at the atomic level. It is technically simpler than the validity of proofs, yet suffices for questions such as completeness. Base-extension semantics is a form of it."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Substructural logics",
-   "url": "https://www.pts-symposium.com/glossary.html#substructural-logics",
-   "description": "Logics that restrict the structural rules, such as weakening and contraction, so that the way assumptions are structured matters. They include relevant and resource-sensitive logics, such as linear logic, and the logic of bunched implications, in which different ways of combining assumptions coexist."
-  },
-  {
-   "@type": "DefinedTerm",
-   "name": "Tonk",
-   "url": "https://www.pts-symposium.com/glossary.html#tonk",
-   "description": "Prior's connective, whose introduction rule is that of disjunction and whose elimination rule is that of conjunction, so that any sentence becomes derivable from any other. It shows that not every pair of introduction and elimination rules defines a meaningful constant, and motivates conditions such as harmony."
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.pts-symposium.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Glossary",
+     "item": "https://www.pts-symposium.com/glossary.html"
+    }
+   ]
   }
  ]
 }

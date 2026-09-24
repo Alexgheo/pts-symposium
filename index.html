@@ -33,51 +33,113 @@
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
- "@type": "EventSeries",
- "name": "Symposium on Proof-theoretic Semantics",
- "url": "https://www.pts-symposium.com/",
- "subEvent": [
+ "@graph": [
   {
-   "@type": "Event",
-   "name": "The First Symposium on Proof-theoretic Semantics",
+   "@type": "WebSite",
+   "@id": "https://www.pts-symposium.com/#website",
+   "url": "https://www.pts-symposium.com/",
+   "name": "Symposium on Proof-theoretic Semantics",
+   "inLanguage": "en",
+   "publisher": {
+    "@id": "https://www.pts-symposium.com/#organization"
+   }
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://www.pts-symposium.com/#organization",
+   "name": "Symposium on Proof-theoretic Semantics",
+   "url": "https://www.pts-symposium.com/",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.pts-symposium.com/icon-512.png",
+    "width": 512,
+    "height": 512
+   },
+   "description": "An international series of meetings on proof-theoretic semantics, held since 2022."
+  },
+  {
+   "@type": "EventSeries",
+   "@id": "https://www.pts-symposium.com/#series",
+   "name": "Symposium on Proof-theoretic Semantics",
+   "url": "https://www.pts-symposium.com/",
    "startDate": "2022-04-28",
-   "url": "https://www.pts-symposium.com/2022-london-april/"
+   "description": "An international series of meetings on proof-theoretic semantics, held since 2022 in London, Prague, Leuven and Tübingen.",
+   "organizer": {
+    "@id": "https://www.pts-symposium.com/#organization"
+   },
+   "subEvent": [
+    {
+     "@id": "https://www.pts-symposium.com/2022-london-april/#event"
+    },
+    {
+     "@id": "https://www.pts-symposium.com/2022-london-november/#event"
+    },
+    {
+     "@id": "https://www.pts-symposium.com/2023-prague/#event"
+    },
+    {
+     "@id": "https://www.pts-symposium.com/2024-leuven/#event"
+    },
+    {
+     "@id": "https://www.pts-symposium.com/2025-london/#event"
+    },
+    {
+     "@id": "https://www.pts-symposium.com/2026-london/#event"
+    },
+    {
+     "@id": "https://www.pts-symposium.com/2027-tuebingen/#event"
+    }
+   ]
   },
   {
    "@type": "Event",
-   "name": "The Second Symposium on Proof-theoretic Semantics",
-   "startDate": "2022-11-09",
-   "url": "https://www.pts-symposium.com/2022-london-november/"
-  },
-  {
-   "@type": "Event",
-   "name": "The Third Symposium on Proof-theoretic Semantics",
-   "startDate": "2023-09-18",
-   "url": "https://www.pts-symposium.com/2023-prague/"
-  },
-  {
-   "@type": "Event",
-   "name": "The Fourth Symposium on Proof-theoretic Semantics",
-   "startDate": "2024-08-05",
-   "url": "https://www.pts-symposium.com/2024-leuven/"
-  },
-  {
-   "@type": "Event",
-   "name": "The Fifth Symposium on Proof-theoretic Semantics",
-   "startDate": "2025-02-04",
-   "url": "https://www.pts-symposium.com/2025-london/"
-  },
-  {
-   "@type": "Event",
-   "name": "The Sixth Symposium on Proof-theoretic Semantics",
-   "startDate": "2026-02-09",
-   "url": "https://www.pts-symposium.com/2026-london/"
-  },
-  {
-   "@type": "Event",
+   "@id": "https://www.pts-symposium.com/2027-tuebingen/#event",
    "name": "The Seventh Symposium on Proof-theoretic Semantics",
+   "url": "https://www.pts-symposium.com/2027-tuebingen/",
    "startDate": "2027-03-17",
-   "url": "https://www.pts-symposium.com/2027-tuebingen/"
+   "endDate": "2027-03-19",
+   "description": "The Seventh Symposium on Proof-theoretic Semantics meets at the University of Tübingen, 17–19 March 2027. Call for papers, key dates, programme and venue.",
+   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "location": {
+    "@type": "Place",
+    "name": "University of Tübingen",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Tübingen",
+     "addressCountry": "DE",
+     "addressRegion": "Baden-Württemberg"
+    }
+   },
+   "image": [
+    "https://www.pts-symposium.com/images/share/2027-tuebingen.jpg"
+   ],
+   "organizer": [
+    {
+     "@id": "https://www.pts-symposium.com/#organization"
+    },
+    {
+     "@type": "Person",
+     "name": "Alexander V. Gheorghiu",
+     "url": "https://www.alexandergheorghiu.com/",
+     "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "University College London"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Antonio Piccolomini d'Aragona",
+     "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Tübingen"
+     }
+    }
+   ],
+   "superEvent": {
+    "@id": "https://www.pts-symposium.com/#series"
+   },
+   "inLanguage": "en"
   }
  ]
 }
