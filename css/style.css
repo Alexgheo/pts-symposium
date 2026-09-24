@@ -631,6 +631,45 @@ body {
 }
 
 /* -------------------------------------------------------------
+   COMMUNITY  (homepage photographs)
+   ------------------------------------------------------------- */
+
+.community-lead { margin-bottom: var(--s2); }
+
+.community-lead img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+}
+
+.community-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--s2) var(--s1);
+}
+
+.community-grid img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--rule);
+}
+
+.community-lead figcaption,
+.community-grid figcaption {
+  font-size: 0.82rem;
+  color: var(--faint);
+  margin-top: 0.3rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  .community-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* -------------------------------------------------------------
    FOOTER
    ------------------------------------------------------------- */
 
