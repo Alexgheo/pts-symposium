@@ -741,3 +741,41 @@ a.series-entry:hover { opacity: 0.65; }
   .slot { display: block; }
   .slot-time { display: block; margin-bottom: 0.3rem; }
 }
+
+/* -------------------------------------------------------------
+   UPCOMING  (homepage announcement)
+   ------------------------------------------------------------- */
+
+.upcoming {
+  display: grid;
+  gap: 0.25rem;
+  max-width: calc(var(--measure) - 2 * var(--s2));
+  margin: var(--s3) auto 0;
+  padding: var(--s2);
+  border: 0.5px solid var(--rule-mid);
+  transition: border-color 0.15s;
+}
+
+@media (max-width: 700px) {
+  .upcoming { margin-left: var(--s2); margin-right: var(--s2); }
+}
+
+.upcoming:hover { border-color: var(--text); }
+
+.upcoming-label,
+.upcoming-meta,
+.upcoming-more {
+  font-family: var(--sans);
+  font-size: 0.58rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.upcoming-title {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.upcoming-more { margin-top: var(--s0); color: var(--text); }
