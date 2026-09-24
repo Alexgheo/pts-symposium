@@ -11,9 +11,8 @@
 <meta property="og:title" content="The Seventh Symposium · Tübingen, March 2027">
 <meta property="og:description" content="The Seventh Symposium on Proof-theoretic Semantics, 17–19 March 2027, University of Tübingen. Programme, venue, travel and registration.">
 <meta property="og:url" content="https://www.pts-symposium.com/2027-tuebingen/">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+<link rel="preload" href="../fonts/cardo-400-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../css/fonts.css">
 <link rel="stylesheet" href="../css/style.css">
 <script type="application/ld+json">
 {
@@ -50,32 +49,48 @@
 </head>
 <body>
 
-<nav class="site-nav" aria-label="Primary">
-  <div class="site-nav-inner">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap site-header-inner">
     <a class="site-brand" href="../index.html">Symposium on Proof-theoretic Semantics</a>
-    <div class="site-nav-links">
-      <a href="../index.html#about">About</a>
-      <a href="../2027-tuebingen/" aria-current="page">Next meeting</a>
-      <a href="../archive.html">Archive</a>
-      <a href="../committee.html">Committee</a>
-      <a href="../glossary.html">Glossary</a>
-      <a href="../gallery.html">Gallery</a>
-    </div>
+    <nav aria-label="Primary">
+      <ul class="nav-list nav-list--wide">
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../2027-tuebingen/" aria-current="page">Next meeting</a></li>
+        <li><a href="../archive.html">Archive</a></li>
+        <li><a href="../committee.html">Committee</a></li>
+        <li><a href="../glossary.html">Glossary</a></li>
+        <li><a href="../gallery.html">Gallery</a></li>
+      </ul>
+      <details class="nav-menu">
+        <summary>Menu</summary>
+        <ul class="nav-list">
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../2027-tuebingen/" aria-current="page">Next meeting</a></li>
+          <li><a href="../archive.html">Archive</a></li>
+          <li><a href="../committee.html">Committee</a></li>
+          <li><a href="../glossary.html">Glossary</a></li>
+          <li><a href="../gallery.html">Gallery</a></li>
+        </ul>
+      </details>
+    </nav>
   </div>
-</nav>
+</header>
 
-<main>
+<main id="main">
 
-  <div class="plate tint-tuebingen plate--hero" role="img" aria-label="Tübingen" style="--photo: url('../images/2027-tuebingen.jpg')"><span class="plate-numeral" aria-hidden="true">VII</span></div>
-  <!-- Photo credit, e.g. Photo: <a href="…">Name</a>, CC BY-SA 4.0 -->
-  <p class="plate-credit"></p>
 
   <div class="narrow">
 
-    <header class="page-header">
-      <p class="label">Symposium VII &middot; Forthcoming</p>
-      <h1 class="page-title">The Seventh Symposium</h1>
-      <p class="page-meta">Wednesday 17 – Friday 19 March 2027 &middot; University of Tübingen</p>
+    <header class="page-header meeting-header">
+      <div>
+        <p class="label">Symposium VII &middot; Forthcoming</p>
+        <h1 class="page-title">The Seventh Symposium</h1>
+        <p class="meeting-when">Wednesday 17 – Friday 19 March 2027</p>
+          <p class="meeting-where">University of Tübingen</p>
+      </div>
+      <span class="meeting-numeral" aria-hidden="true">VII</span>
     </header>
 
     <nav class="toc" aria-label="On this page">
@@ -151,16 +166,15 @@
 </main>
 
 <footer class="site-footer">
-  <div class="site-footer-inner">
-    <p>Symposium on Proof-theoretic Semantics &middot; since 2022</p>
-    <nav class="footer-links" aria-label="Footer">
-      <a href="../index.html#about">About</a>
-      <a href="../archive.html">Archive</a>
-      <a href="../committee.html">Committee</a>
-      <a href="../glossary.html">Glossary</a>
-      <a href="../gallery.html">Gallery</a>
-      <a href="https://sites.google.com/view/ptsnetwork/home-page">PTS Network</a>
-    </nav>
+  <div class="wrap site-footer-inner">
+    <p class="site-footer-name">Symposium on Proof-theoretic Semantics &middot; since 2022</p>
+    <ul class="footer-links">
+      <li><a href="../archive.html">Archive</a></li>
+      <li><a href="../committee.html">Committee</a></li>
+      <li><a href="../glossary.html">Glossary</a></li>
+      <li><a href="../gallery.html">Gallery</a></li>
+      <li><a href="https://sites.google.com/view/ptsnetwork/home-page">Proof-theoretic Semantics Network</a></li>
+    </ul>
   </div>
 </footer>
 

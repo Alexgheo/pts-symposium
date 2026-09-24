@@ -292,6 +292,7 @@ blockquote p,
 }
 
 .site-brand {
+  max-width: 16rem;
   font-family: var(--serif);
   font-weight: 700;
   font-size: var(--step-0);
@@ -305,8 +306,6 @@ blockquote p,
 }
 
 .site-brand:hover { color: var(--accent); }
-
-.site-brand-short { display: none; }
 
 .nav-list {
   list-style: none;
@@ -401,11 +400,6 @@ blockquote p,
 @media (max-width: 52em) {
   .nav-list--wide { display: none; }
   .nav-menu { display: block; }
-}
-
-@media (max-width: 26em) {
-  .site-brand-full  { display: none; }
-  .site-brand-short { display: inline; }
 }
 
 /* -------------------------------------------------------------
@@ -962,9 +956,12 @@ blockquote p,
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--space-l) var(--space-m);
 }
+
+@media (max-width: 52em) { .photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 30em) { .photo-grid { grid-template-columns: 1fr; } }
 
 .photo-grid img {
   width: 100%;
