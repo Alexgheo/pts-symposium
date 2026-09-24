@@ -762,6 +762,34 @@ blockquote p,
   .timeline-arrow   { display: none; }
 }
 
+/* Previous / next meeting */
+.meeting-nav {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-s);
+  margin-top: var(--space-xl);
+  padding-top: var(--space-m);
+  border-top: 1px solid var(--rule-strong);
+}
+
+.meeting-nav a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-height: var(--tap);
+  font-size: var(--step-0);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.meeting-nav a:hover { color: var(--accent); }
+.meeting-nav .meeting-nav-next { grid-column: 2; text-align: right; }
+
+@media (max-width: 30em) {
+  .meeting-nav { grid-template-columns: 1fr; }
+  .meeting-nav .meeting-nav-next { grid-column: 1; text-align: left; }
+}
+
 /* -------------------------------------------------------------
    8. PEOPLE (committee, organizers)
    ------------------------------------------------------------- */
