@@ -398,7 +398,6 @@
 
 <dialog class="lightbox" aria-label="Photograph">
   <form method="dialog"><button class="lightbox-close" aria-label="Close">&times;</button></form>
-  <img alt="">
   <p class="lightbox-caption"></p>
 </dialog>
 
@@ -406,7 +405,8 @@
 (function () {
   var d = document.querySelector('.lightbox');
   if (!d || !d.showModal) return;
-  var img = d.querySelector('img'), cap = d.querySelector('.lightbox-caption');
+  var cap = d.querySelector('.lightbox-caption');
+  var img = d.insertBefore(document.createElement('img'), cap);
   document.querySelectorAll('.lightbox-link').forEach(function (a) {
     a.addEventListener('click', function (e) {
       e.preventDefault();
