@@ -50,19 +50,26 @@
       "url": "https://www.pts-symposium.com/2027-tuebingen/",
       "startDate": "2027-03-17",
       "endDate": "2027-03-19",
-      "description": "The Seventh Symposium on Proof-theoretic Semantics meets at the University of Tübingen, 17–19 March 2027. Call for papers, key dates, programme and venue.",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "description": "The Seventh Symposium on Proof-theoretic Semantics meets at the University of Tübingen, 17–19 March 2027. Invited talks; free to attend, in person or online.",
+      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
-      "location": {
-       "@type": "Place",
-       "name": "University of Tübingen",
-       "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Tübingen",
-        "addressCountry": "DE",
-        "addressRegion": "Baden-Württemberg"
+      "location": [
+       {
+        "@type": "Place",
+        "name": "University of Tübingen",
+        "address": {
+         "@type": "PostalAddress",
+         "addressLocality": "Tübingen",
+         "addressCountry": "DE",
+         "addressRegion": "Baden-Württemberg"
+        }
+       },
+       {
+        "@type": "VirtualLocation",
+        "name": "Online stream (link to be posted on the meeting page)",
+        "url": "https://www.pts-symposium.com/2027-tuebingen/"
        }
-      },
+      ],
       "image": [
        "https://www.pts-symposium.com/images/share/2027-tuebingen.jpg"
       ],
@@ -74,6 +81,7 @@
         "@type": "Person",
         "name": "Alexander V. Gheorghiu",
         "url": "https://www.alexandergheorghiu.com/",
+        "email": "mailto:a.v.gheorghiu@ucl.ac.uk",
         "affiliation": {
          "@type": "CollegeOrUniversity",
          "name": "University College London"
@@ -82,6 +90,8 @@
        {
         "@type": "Person",
         "name": "Antonio Piccolomini d'Aragona",
+        "url": "https://sites.google.com/site/piccdarag",
+        "email": "mailto:antonio.piccolomini-daragona@uni-tuebingen.de",
         "affiliation": {
          "@type": "CollegeOrUniversity",
          "name": "University of Tübingen"
@@ -91,7 +101,16 @@
       "superEvent": {
        "@id": "https://www.pts-symposium.com/#series"
       },
-      "inLanguage": "en"
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "offers": {
+       "@type": "Offer",
+       "price": "0",
+       "priceCurrency": "EUR",
+       "availability": "https://schema.org/InStock",
+       "url": "https://www.pts-symposium.com/2027-tuebingen/#registration",
+       "description": "Free; the programme is by invitation. Email the organizers to take part."
+      }
      }
     },
     {
