@@ -84,9 +84,20 @@
 
 @font-face {
   font-family: "Source Sans 3 Fallback";
+  font-weight: 400;
   src: local("Arial"), local("Helvetica");
-  size-adjust: 91%;
-  ascent-override: 112.5%;
-  descent-override: 44%;
+  size-adjust: 93.4%;
+  ascent-override: 109.6%;
+  descent-override: 42.8%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Source Sans 3 Fallback";
+  font-weight: 600 700;
+  src: local("Arial Bold"), local("Arial-BoldMT"), local("Helvetica Bold");
+  size-adjust: 89.8%;
+  ascent-override: 114%;
+  descent-override: 44.5%;
   line-gap-override: 0%;
 }
